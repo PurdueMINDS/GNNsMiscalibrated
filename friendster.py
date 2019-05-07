@@ -56,7 +56,7 @@ class Friendster(InMemoryDataset):
         transformed before being saved to disk. (default: None)
     """
 
-    url = "https://github.com/PurdueMINDS/GNNsMiscalibrated/raw/master/Friendster"
+    url = "https://github.com/PurdueMINDS/GNNsMiscalibrated/raw/master/data"
     name_map = {
         '25K': '25K',
     }

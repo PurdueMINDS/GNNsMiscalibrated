@@ -3,24 +3,24 @@
 In this repository we make available the Friendster dataset used in our
 paper:
 
-Teixeira, L., Jalaian, B., & Ribeiro, B., (2019). Are Graph Neural
-Networks Miscalibrated? (arXiv preprint in preparation)
+Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro. Are Graph Neural Networks
+Miscalibrated? (arXiv 2019, in preparation).
 
-<!--If you use the data or code from this repo in your own code, please cite-->
-<!--our paper: -->
-<!--```tex-->
-<!--@article{teixeira2019,-->
-<!--    title={Are Graph Neural Networks Miscalibrated?},-->
-<!--    author={Leonardo Teixeira and Brian Jalaian and Bruno Ribeiro},-->
-<!--    journal={arXiv preprint arXiv:XXX.XXXXX},-->
-<!--    year={2019}-->
-<!--}-->
-<!--```-->
+If you use the data or code from this repository in your own code, please cite
+our paper:
+```tex
+@article{teixeira2019,
+	title={Are Graph Neural Networks Miscalibrated?},
+	author={Leonardo Teixeira and Brian Jalaian and Bruno Ribeiro},
+	journal={arXiv preprint in preparation},
+	year={2019}
+}
+```
 
 ## Friendster Dataset
 
 The Friendster dataset used in our paper is available in the folder
-`Friendster`. We also provide the Train, Validation and Test split used
+`data`. We also provide the Train, Validation and Test split used
 in the paper, as well as a Python class to facilitate the usage with the
 [PyTorch Geometric][1] library.
 
@@ -51,7 +51,7 @@ PyTorch 1.0.1, PyTorch Geometric 1.0.2, NumPy 1.15 and h5py 2.9.
 Using the provided class is illustrated in the following snippet. The
 class takes care of downloading the data automatically.
 
-```python 
+```python
 from friendster import Friendster
 
 # Download the dataset to the folder: './Friendster-25K'
@@ -87,7 +87,7 @@ This file has the following HDF5 Datasets:
   entries.
 - `target_names`: The names of each label.
 
-Using the `h5py` library, the data can be loaded as: 
+Using the `h5py` library, the data can be loaded as:
 ```python
 import h5py
 
