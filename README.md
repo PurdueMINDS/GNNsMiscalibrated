@@ -3,8 +3,8 @@
 In this repository we make available the Friendster dataset used in our
 paper:
 
-Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro. Are Graph Neural Networks
-Miscalibrated? (arXiv 2019, in preparation).
+Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro. [Are Graph Neural Networks
+Miscalibrated?](http://arxiv.org/abs/1905.02296) (arXiv 2019).
 
 If you use the data or code from this repository in your own code, please cite
 our paper:
@@ -12,7 +12,7 @@ our paper:
 @article{teixeira2019,
 	title={Are Graph Neural Networks Miscalibrated?},
 	author={Leonardo Teixeira and Brian Jalaian and Bruno Ribeiro},
-	journal={arXiv preprint in preparation},
+	journal={arXiv preprint arXiv:1905.02296},
 	year={2019}
 }
 ```
