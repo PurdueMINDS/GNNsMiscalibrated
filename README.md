@@ -9,10 +9,10 @@ Miscalibrated?](http://arxiv.org/abs/1905.02296) (arXiv 2019).
 If you use the data or code from this repository in your own code, please cite
 our paper:
 ```tex
-@article{teixeira2019,
+@article{teixeira2019GNNmiscalibrated,
 	title={Are Graph Neural Networks Miscalibrated?},
 	author={Leonardo Teixeira and Brian Jalaian and Bruno Ribeiro},
-	journal={arXiv preprint arXiv:1905.02296},
+	journal={arXiv:1905.02296},
 	year={2019}
 }
 ```
