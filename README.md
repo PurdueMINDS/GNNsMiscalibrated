@@ -3,9 +3,9 @@
 In this repository we make available the Friendster dataset used in our
 paper:
 
-Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro. [Are Graph Neural Networks
-Miscalibrated?](http://arxiv.org/abs/1905.02296) (ICML Workshop on Learning and
-Reasoning with Graph-Structured Representations).
+Leonardo Teixeira, Brian Jalaian, Bruno Ribeiro. (2019). [Are Graph Neural Networks
+Miscalibrated?](http://arxiv.org/abs/1905.02296) *ICML Workshop on Learning and
+Reasoning with Graph-Structured Representations*.
 
 If you use the data or code from this repository in your own code, please cite
 our paper:
