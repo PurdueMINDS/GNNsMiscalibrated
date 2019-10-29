@@ -91,9 +91,9 @@ This file has the following HDF5 Datasets:
 
 Using the `h5py` library, the data can be loaded as:
 ```python
-import h5py
+from h5py import File
 
-dataset = h5py.File("./friendster_25K.h5")
+dataset = File("./friendster_25K.h5")
 A = dataset["adjacency"][:]  # Adjacency list
 X = dataset["features"][:]  # Feature matrix
 y = dataset["target"][:]  # Node labels
